@@ -32,8 +32,14 @@ bytes = random._urandom(3500)
 
 os.system("clear")
 print("""
+
 █
-            
+█  ████ ████ █     █
+█      █      █  █     █
+█    █      █    █     █
+█  █      █       ████ 
+█ ████ ████        █  
+                     ███
 """)
 
 ip = input("[+] Target's IP : ")
