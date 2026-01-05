@@ -1,1 +1,1 @@
-# Simple-DDsos
+. Izzy-DDos
