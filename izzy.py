@@ -70,7 +70,7 @@ while True:
         sent = sent + 1
         time.sleep(1)
         print("\033[100m \033[92m[Info-attack]  \033[0m \033[97m%s  \033[33mSent \033[92m%s \033[36m" % (sent, ip))
-        print("\033[97m [Info-attack] \033[0m  \033[32mSent \033[33m%s \033[94mPort \033[33m%s " % (sent, ip, port))
+        print("\033[97m [Info-attack] \033[0m  \033[32mSent \033[33m%s \033[94mPort \033[33m%s " % (ip, port))
     
     if():
         s.close
